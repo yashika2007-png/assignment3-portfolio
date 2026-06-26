@@ -1,0 +1,46 @@
+```css
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    padding: 15px 20px;
+
+    position: sticky;
+    top: 0;
+}
+
+nav h2 {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.content {
+    padding: 40px;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        display: none;
+    }
+}
+```
