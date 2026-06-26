@@ -44,3 +44,43 @@ nav a:hover {
     }
 }
 ```
+```css
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color: purple;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.hero a {
+    display: inline-block;
+    background-color: purple;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.hero a:hover {
+    background-color: darkviolet;
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+}
+```
